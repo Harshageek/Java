@@ -1,0 +1,17 @@
+class Parent
+{
+int a = 20;
+void display()
+{
+int a = 30;
+System.out.println(a); //a is overriding therefore output of a = 30
+}
+}
+class Muliti
+{
+public static void main(String [] args)
+{
+Child obj = new Child();
+obj.display();
+}
+}
