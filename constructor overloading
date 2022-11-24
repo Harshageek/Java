@@ -9,7 +9,7 @@ void a(int a)
 System.out.println("constructor with args"); 
 }
 }
-class Con
+class CL
 {
 public static void main(String [] args)
 {
