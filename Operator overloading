@@ -1,0 +1,19 @@
+class Parent
+{
+void a()
+{
+int a = 10,b=20;
+System.out.println("sum of a+b = "+a+b); 
+/* the output will be 1020
+because we have to add as show +(a+b)
+now the output will be 30 */
+}
+}
+class OL
+{
+public static void main(String [] args)
+{
+Parent obj = new Parent();
+obj.a();
+}
+}
