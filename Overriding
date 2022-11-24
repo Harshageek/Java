@@ -7,7 +7,7 @@ int a = 30;
 System.out.println(a); //a is overriding therefore output of a = 30
 }
 }
-class Muliti
+class Or
 {
 public static void main(String [] args)
 {
