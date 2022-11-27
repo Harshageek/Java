@@ -1,0 +1,28 @@
+interface A
+{
+void display();
+}
+interface B
+{
+void show();
+}
+class Ab implements A,B
+{
+public void display()
+{
+System.out.println("class A");
+}
+public void show()
+{
+System.out.println("class B");
+}
+}
+class In 
+{
+public static void main(String []args)
+{
+Ab obj = new Ab();
+obj.display();
+obj.show();
+}
+}
